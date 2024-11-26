@@ -162,7 +162,7 @@ WHERE StudentID = 3;
 
 ## Test Results
 
-All queries were tested, and the database performs as expected, fulfilling the outlined requirements.
+All queries were tested, and the database performed as expected, fulfilling the outlined requirements.
 
 ---
 
@@ -173,6 +173,10 @@ All queries were tested, and the database performs as expected, fulfilling the o
 3. Adjust sample data or queries for your testing needs.
 
 ---
+### Limitations
+- Create a separate table for the instructors so the information can be easily managed
+- Add more data points to make the database more robust in terms of analysis capacity
+- For Students that are less than 18, let's have a table called parent and attach parent_id to such student details.
 
 ### Contributions and Feedback
 
